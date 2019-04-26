@@ -16,6 +16,7 @@
   "author": "Netlify",
   "license": "MIT",
   "dependencies": {
+    "request": "^2.88.0",
     "apollo-link-http": "^1.5.14",
     "apollo-link-context": "^1.0.17",
     "apollo-server-lambda": "^2.4.8",

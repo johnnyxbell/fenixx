@@ -1,5 +1,5 @@
-import { ApolloServer, gql } from 'apollo-server-lambda';
-import { createHttpLink } from 'apollo-link-http';
+const { ApolloServer, gql } = require('apollo-server');
+const { createHttpLink } = require('apollo-link-http');
 const fetch = require('node-fetch');
 const { introspectSchema, makeRemoteExecutableSchema } = require('graphql-tools');
 

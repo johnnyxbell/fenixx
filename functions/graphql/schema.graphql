@@ -1,8 +1,8 @@
-type Item {
+type Todo {
   title: String!
   completed: Boolean!
 }
 type Query {
-  allItems: [Item!]
-  itemsByCompletedFlag(completed: Boolean!): [Item!]
+  allTodos: [Todo!]
+  todosByCompletedFlag(completed: Boolean!): [Todo!]
 }

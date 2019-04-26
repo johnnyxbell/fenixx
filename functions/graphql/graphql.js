@@ -1,4 +1,4 @@
-const { ApolloServer, gql } = require('apollo-server');
+const { ApolloServer, gql } = require('apollo-server-lambda');
 const { createHttpLink } = require('apollo-link-http');
 const fetch = require('node-fetch');
 const { introspectSchema, makeRemoteExecutableSchema } = require('graphql-tools');
